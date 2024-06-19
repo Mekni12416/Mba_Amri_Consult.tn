@@ -34,7 +34,7 @@ time, mark, audio, video {
   font-family: "Roboto-Italic";
   src: url(../fonts/Roboto-Italic.ttf); }
 body {
-  background-image: url(../images/home-bg.png);
+  background-color: #bfbfc0;
   font-family: "Roboto-Regular";
   font-size: 16px; }
 
@@ -63,12 +63,12 @@ header .card a, .vr-gallery a.btn {
     color: #03133a; }
 
 header {
-  background-image: url(../images/home-bg.png);
+  /* background-image: url(../images/home-bg.png); */
   text-align: center;
   padding: 20px 0;
   padding-bottom: 50px; }
   header .bg-cover {
-    background: rgb(51 54 166 / 70%); }
+    background: rgba(125, 127, 199, 0.7); }
   header .input-group input {
     display: none; }
   header h2.logo {
@@ -819,3 +819,69 @@ footer {
     padding-left: 15px !important; } }
 
 /*# sourceMappingURL=style.css.map */
+
+.circles-container {
+  display: flex;
+  justify-content: center;
+  gap: 50%;
+  margin-top: -4%;
+}
+
+.circle {
+  width: 11%;
+  height: 208px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+
+.circle a {
+  text-decoration: none;
+  color: #333; /* Couleur du texte */
+  font-weight: bold;
+}
+
+/* Effet au survol */
+.circle:hover {
+  background-color: #007bff; /* Couleur de fond au survol */
+}
+
+.circle:hover a {
+  color: #fff; /* Couleur du texte au survol */
+}
+
+
+
+.contact-section {
+  padding: 50px;
+  background-color: #fff;
+  text-align: center;
+}
+.contact-section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.contact-section a {
+  color: #4267B2; /* Couleur bleu de Facebook */
+  text-decoration: none;
+  margin: 0 10px;
+  display: inline-block;
+}
+.contact-section a:hover {
+  text-decoration: underline;
+}
+.contact-info {
+  margin: 20px 0;
+}
+.contact-info p {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+.contact-info .fa {
+  margin-right: 10px;}

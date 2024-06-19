@@ -83,7 +83,7 @@ jQuery("#toggle-search").click(function () {
         jQuery("#toggle-search").attr("src", "assets/images/close.png");
 
     }
-    // on even clicks do this
+    
     else if (isEven(count) === true) {
         //jQuery("#nav-search").css({"display":"none"});
         jQuery("#nav-search").slideUp();
