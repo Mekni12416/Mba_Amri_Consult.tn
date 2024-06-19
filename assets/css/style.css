@@ -34,7 +34,7 @@ time, mark, audio, video {
   font-family: "Roboto-Italic";
   src: url(../fonts/Roboto-Italic.ttf); }
 body {
-  background-color: #bfbfc0;
+  background-color: #F5F5DC;
   font-family: "Roboto-Regular";
   font-size: 16px; }
 
@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 0; }
 
 header .card a, .vr-gallery a.btn {
-  background-color: #03133a;
+  background-color: #e75151;
   width: 200px;
   padding: 12px 0;
   color: #ffffff;
@@ -60,7 +60,7 @@ header .card a, .vr-gallery a.btn {
   border-radius: 0; }
   header .card a:hover, .vr-gallery a.btn:hover {
     background: #ffffff;
-    color: #03133a; }
+    color: #e75151; }
 
 header {
   /* background-image: url(../images/home-bg.png); */
@@ -68,26 +68,26 @@ header {
   padding: 20px 0;
   padding-bottom: 50px; }
   header .bg-cover {
-    background: rgba(125, 127, 199, 0.7); }
+    background: #F5F5DC; }
   header .input-group input {
     display: none; }
   header h2.logo {
     font-size: 75px;
     font-family: "Angeline_Vintage";
-    color: #ffffff; }
+    color: #e75151; }
   header .nav-fill {
     max-width: 250px; }
     header .nav-fill a {
-      color: #ffffff; }
+      color: #e75151; }
     header .nav-fill li:hover a {
       color: #03133a; }
   header .navbar li.nav-item a.nav-link {
     font-family: "Montserrat-Bold";
-    color: #ffffff;
+    color: #e75151;
     padding-right: 1.5rem;
     padding-left: 1.5rem; }
   header .card {
-    color: #ffffff; }
+    color: #e75151; }
     header .card p {
       text-transform: uppercase; }
     header .card hr {
@@ -355,7 +355,7 @@ header {
       color: #ffffff !important;
       background: #03133a !important;
       border-radius: 3px;
-      box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.48);
+      box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.301);
       width: 41px;
       height: 41px;
       margin-left: -20px;
@@ -663,7 +663,7 @@ footer {
   .ar-content a.btn {
     width: 130px;
     padding: 10px 0;
-    background: #03133a;
+    background: #e75151;
     color: #ffffff;
     border-radius: 0;
     font-family: "Montserrat-Bold";
@@ -676,7 +676,7 @@ footer {
     border-width: 2px; }
     .ar-content a.btn:hover {
       background: #ffffff;
-      color: #03133a; }
+      color: #e75151; }
 
 .comment-section hr {
   margin-bottom: -1px; }
@@ -771,7 +771,7 @@ footer {
   .sidebar .owl-dots .active {
     box-shadow: none; }
     .sidebar .owl-dots .active span {
-      background: #03133a; }
+      background: #e75151; }
 .sidebar .card.bg-gray {
   padding: 35px; }
   .sidebar .card.bg-gray hr {
@@ -849,18 +849,18 @@ footer {
 
 /* Effet au survol */
 .circle:hover {
-  background-color: #007bff; /* Couleur de fond au survol */
+  background-color: #e75151; /* Couleur de fond au survol */
 }
 
 .circle:hover a {
-  color: #fff; /* Couleur du texte au survol */
+  color: #F5F5DC; /* Couleur du texte au survol */
 }
 
 
 
 .contact-section {
   padding: 50px;
-  background-color: #fff;
+  background-color: #e75151d3;
   text-align: center;
 }
 .contact-section h2 {
@@ -868,7 +868,7 @@ footer {
   margin-bottom: 20px;
 }
 .contact-section a {
-  color: #4267B2; /* Couleur bleu de Facebook */
+  color: #fff; /* Couleur bleu de Facebook */
   text-decoration: none;
   margin: 0 10px;
   display: inline-block;
