@@ -81,3 +81,34 @@ main {
         width: calc(100% - 30px);
     }
 }
+
+
+
+       
+.contact-section {
+    padding: 50px;
+    background-color: #9f9696d3;
+    text-align: center;
+  }
+  .contact-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  .contact-section a {
+    color: #fff; /* Couleur bleu de Facebook */
+    text-decoration: none;
+    margin: 0 10px;
+    display: inline-block;
+  }
+  .contact-section a:hover {
+    text-decoration: underline;
+  }
+  .contact-info {
+    margin: 20px 0;
+  }
+  .contact-info p {
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+  .contact-info .fa {
+    margin-right: 10px;}

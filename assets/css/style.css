@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 0; }
 
 header .card a, .vr-gallery a.btn {
-  background-color: #e75151;
+  background-color: #005e2a;
   width: 200px;
   padding: 12px 0;
   color: #ffffff;
@@ -60,7 +60,7 @@ header .card a, .vr-gallery a.btn {
   border-radius: 0; }
   header .card a:hover, .vr-gallery a.btn:hover {
     background: #ffffff;
-    color: #e75151; }
+    color: #007751; }
 
 header {
   /* background-image: url(../images/home-bg.png); */
@@ -74,20 +74,20 @@ header {
   header h2.logo {
     font-size: 75px;
     font-family: "Angeline_Vintage";
-    color: #e75151; }
+    color: #005b11; }
   header .nav-fill {
     max-width: 250px; }
     header .nav-fill a {
-      color: #e75151; }
+      color: #003d05; }
     header .nav-fill li:hover a {
       color: #03133a; }
   header .navbar li.nav-item a.nav-link {
     font-family: "Montserrat-Bold";
-    color: #e75151;
+    color: #006810;
     padding-right: 1.5rem;
     padding-left: 1.5rem; }
   header .card {
-    color: #e75151; }
+    color: #51e79f; }
     header .card p {
       text-transform: uppercase; }
     header .card hr {
@@ -663,7 +663,7 @@ footer {
   .ar-content a.btn {
     width: 130px;
     padding: 10px 0;
-    background: #e75151;
+    background: #006127;
     color: #ffffff;
     border-radius: 0;
     font-family: "Montserrat-Bold";
@@ -676,7 +676,7 @@ footer {
     border-width: 2px; }
     .ar-content a.btn:hover {
       background: #ffffff;
-      color: #e75151; }
+      color: #005013; }
 
 .comment-section hr {
   margin-bottom: -1px; }
@@ -771,7 +771,7 @@ footer {
   .sidebar .owl-dots .active {
     box-shadow: none; }
     .sidebar .owl-dots .active span {
-      background: #e75151; }
+      background: #004022; }
 .sidebar .card.bg-gray {
   padding: 35px; }
   .sidebar .card.bg-gray hr {
@@ -849,7 +849,7 @@ footer {
 
 /* Effet au survol */
 .circle:hover {
-  background-color: #e75151; /* Couleur de fond au survol */
+  background-color: #004d24; /* Couleur de fond au survol */
 }
 
 .circle:hover a {
