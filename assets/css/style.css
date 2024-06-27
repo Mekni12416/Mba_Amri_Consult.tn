@@ -566,9 +566,9 @@ header {
       border-color: #06236a; }
 
 footer {
-  background-image: url(../images/home-bg.png); }
+  background-color: #888888;}
   footer h2.logo {
-    font-size: 75px;
+    font-size: 125px;
     font-family: "Angeline_Vintage";
     color: #ffffff; }
   footer .nav-fill {
