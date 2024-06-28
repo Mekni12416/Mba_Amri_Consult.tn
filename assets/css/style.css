@@ -87,6 +87,7 @@ header {
     padding-right: 1.5rem;
     padding-left: 1.5rem; }
   header .card {
+    width: 200%;
     color: #51e79f; }
     header .card p {
       text-transform: uppercase; }
@@ -366,7 +367,7 @@ header {
       margin-right: -20px; }
 
 .light-bg {
-  background: #f7f7f7; }
+  /*background: #f7f7f7; */}
 
 .vr-gallery p {
   font-size: 15px;
