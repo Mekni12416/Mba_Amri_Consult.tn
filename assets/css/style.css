@@ -63,7 +63,7 @@ header .card a, .vr-gallery a.btn {
     color: #007751; }
 
 header {
-  /* background-image: url(../images/home-bg.png); */
+  
   text-align: center;
   padding: 20px 0;
   padding-bottom: 50px; }
@@ -534,7 +534,7 @@ header {
     font-size: 16px; }
 
 .stay {
-  background: url(../images/stay-bg.png);
+  /* background: url(../images/stay-bg.png); */
   background-repeat: repeat; }
   .stay h2 {
     font-size: 48px;
@@ -565,13 +565,13 @@ header {
     .stay button:hover {
       background: #06236a;
       border-color: #06236a; }
-
+/* 
 footer {
-  background-color: #888888;}
+  background-image: url(../images/bbb1.png);}
   footer h2.logo {
     font-size: 125px;
-    font-family: "Angeline_Vintage";
-    color: #ffffff; }
+    font-family: "revenue";
+    color: #F5F5DC; }
   footer .nav-fill {
     max-width: 250px; }
     footer .nav-fill a {
@@ -582,7 +582,60 @@ footer {
     padding: 34px 0;
     background-color: rgba(0, 0, 0, 0.451); }
     footer .copyright p {
-      color: #999999; }
+      color: #999999; } */
+      footer {
+        background-image: url(../images/bbb1.png);
+        background-size: cover;  /* Assure que l'image couvre toute la section */
+        background-position: center;  /* Centre l'image dans la section */
+        background-repeat: no-repeat;  /* Empêche la répétition de l'image */
+        padding-top: 5em;  /* Ajoute de l'espace au-dessus */
+        color: #f5f5dc;  /* Texte clair pour contraste avec le fond */
+    }
+    
+    /* Style pour le logo dans le footer */
+    footer h2.logo {
+        font-size: 125px;
+        font-family: "revenue";
+        color: #f5f5dc;
+        margin-bottom: 20px;  /* Espace en dessous du logo */
+    }
+    
+    /* Style pour la navigation dans le footer */
+    footer .nav-fill {
+        max-width: 250px;
+        margin: 0 auto;  /* Centrage horizontal */
+    }
+    
+    footer .nav-fill a {
+        color: #ffffff;  /* Couleur de lien par défaut */
+        font-size: 1.5em;  /* Augmente la taille des icônes */
+        transition: color 0.3s;  /* Transition douce pour le changement de couleur */
+    }
+    
+    footer .nav-fill li:hover a {
+        color: #03133a;  /* Couleur des liens au survol */
+    }
+    
+    /* Section copyright */
+    footer .copyright {
+        padding: 34px 0;
+        background-color: rgba(0, 0, 0, 0.5);  /* Fond semi-transparent */
+        text-align: center;  /* Centrage du texte */
+    }
+    
+    footer .copyright p {
+        color: #999999;  /* Couleur du texte de copyright */
+    }
+    
+    footer .copyright a {
+        color: #ffffff;  /* Couleur des liens de copyright */
+        text-decoration: underline;  /* Souligne les liens */
+        transition: color 0.3s;  /* Transition douce pour le changement de couleur */
+    }
+    
+    footer .copyright a:hover {
+        color: #f5f5dc;  /* Couleur des liens de copyright au survol */
+    }
 
 .article-pg header {
   padding-bottom: 0; }
@@ -861,7 +914,7 @@ footer {
 
 .contact-section {
   padding: 50px;
-  background-color: #948787d3;
+  /* background-color: #948787d3; */
   text-align: center;
 }
 .contact-section h2 {
@@ -888,7 +941,7 @@ footer {
   margin-right: 10px;}
 
 
-
+/* 
   .ab {
     display: flex;
     justify-content: space-around;
@@ -919,12 +972,12 @@ footer {
 }
 
 .ae {
-    background-color: #2d383e21;
+    background-image: url(../images/s1.png);
     color: #fff;
 }
 
 .af {
-    background-color: #ffe4b5;
+    background-image: url(../images/s2.png);
     color: #555;
 }
 
@@ -932,4 +985,122 @@ h3 {
     margin-top: 50%;
     font-size: 3.5em;
     margin-bottom: 55%;
-} 
+}  */
+
+.ab {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  max-width: 100%;
+  margin: auto;
+}
+
+/* Cadres */
+.ac {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  flex: 1;
+  max-width: 50%;
+  text-align: center;
+  transition: transform 0.3s ease;
+  position: relative; /* Important pour que le texte et le lien soient superposés */
+  overflow: hidden; /* Masque le contenu débordant */
+}
+
+.ac:hover {
+  color: #022a00;
+  transform: translateY(-10px);
+}
+
+.ad {
+  margin-bottom: 34%;
+}
+
+/* Cadre avec background-image */
+.ae, .af {
+  background-size: cover; /* Pour couvrir tout l'espace du cadre */
+  background-position: center; /* Pour centrer l'image */
+  color: #fff;
+  height: 750px; /* Ajuster selon les besoins */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ae {
+  background-image: url('../images/ss1.png');
+}
+
+.af {
+  background-image: url('../images/sss2.png');
+  color: #555;
+}
+
+/* Texte dans les cadres */
+h3 {
+  font-size: 3.5em;
+  position: absolute; /* Position absolue pour placer le texte au centre */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centrage du texte */
+  margin: 0; /* Supprime les marges */
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7); /* Fond transparent pour améliorer la lisibilité */
+  border-radius: 10px; /* Coins arrondis */
+}
+
+
+.page-container {
+  display: flex;
+  max-width: 100%;
+  background-color: #F5F5DC;
+  padding: 4%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 44px;
+  border: 1px solid #ffffff;
+  flex-wrap: wrap;
+  margin-top: 4%;
+}
+
+.sidebar {
+  flex: 1;
+  /* Occupe 1 unité de l'espace disponible */
+  padding-right: 20px;
+  /* Espacement entre la colonne de gauche et la colonne de droite */
+  border-right: 1px solid #ddd;
+  /* Ligne de séparation entre les deux colonnes */
+}
+
+.sidebar h1 {
+  font-family: emoji;
+  font-size: 88px;
+  margin: 0;
+}
+
+.sidebar h2 {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 51px;
+  color: #1c7700;
+  margin-top: 21px;
+}
+
+.main-content {
+  flex: 2;
+  /* Occupe 2 unités de l'espace disponible, plus large que la colonne de gauche */
+  padding-left: 20px;
+  /* Espacement à gauche du contenu principal */
+}
+
+.main-content p {
+  font-size: 23px;
+  line-height: 1.6;
+  color: #000;
+}
+
+.main-content p strong {
+  font-weight: bold;
+  color: #000;
+}
