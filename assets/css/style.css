@@ -39,7 +39,10 @@ body {
   font-size: 16px; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat-Bold"; }
+
+  font-size: 265%;
+    color: green;
+    font-family: "Montserrat-Bold"; }
 
 .container-fluid {
   padding: 0; }
@@ -1059,13 +1062,14 @@ h3 {
   background-color: #F5F5DC;
   padding: 4%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 44px;
-  border: 1px solid #ffffff;
+  border-radius: 68px;
+  border: 1px solid #305e37;
   flex-wrap: wrap;
   margin-top: 4%;
 }
 
 .sidebar {
+  margin-top: 5%;
   flex: 1;
   /* Occupe 1 unité de l'espace disponible */
   padding-right: 20px;
@@ -1090,7 +1094,7 @@ h3 {
 .main-content {
   flex: 2;
   /* Occupe 2 unités de l'espace disponible, plus large que la colonne de gauche */
-  padding-left: 20px;
+  padding-left: 1%;
   /* Espacement à gauche du contenu principal */
 }
 
@@ -1103,4 +1107,11 @@ h3 {
 .main-content p strong {
   font-weight: bold;
   color: #000;
+}
+
+
+
+#amri{
+  margin-top: 2%;
+  width: 24%;
 }
