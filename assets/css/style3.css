@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #ffe4b5;
+    background-color: #e8f7ed;
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -17,7 +17,7 @@ header {
 h1 {
     margin-top: -20%;
     margin: 0;
-    font-size: 6.5em;
+    font-size: 5.5em;
 }
 
 main {
@@ -88,7 +88,7 @@ main {
        
 .contact-section {
     padding: 50px;
-    background-color: #9f9696d3;
+    /* background-color: #9f9696d3; */
     text-align: center;
   }
   .contact-section h2 {
@@ -113,3 +113,32 @@ main {
   }
   .contact-info .fa {
     margin-right: 10px;}
+
+
+    .btn-retour {
+        display: block;
+        position: fixed;
+        top: 5%;
+        left: 2%;
+        background-color: #333;
+        color: #ffffff;
+        padding: 12px;
+        border-radius: 19px;
+        text-decoration: none;
+        font-size: 17px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        transition: background-color 0.3s, color 0.3s;
+    }
+    
+    .btn-retour:hover {
+        background-color: #40af47;;
+        color: #fff;
+    }
+
+    footer h2.logo {
+        margin-left: 20%;
+        font-size: 125px;
+        font-family: "revenue";
+        color: #f5f5dc;
+        margin-bottom: 20px;
+    }

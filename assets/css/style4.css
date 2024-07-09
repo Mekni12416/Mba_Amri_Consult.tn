@@ -12,7 +12,7 @@ body {
 
 /* En-tête */
 header {
-    background-color: #ffe4b5;
+    background-color: #e8f7ed;
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -31,10 +31,11 @@ header img {
 }
 
 /* Conteneur principal */
-.container {    display: grid;
+.container {   
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2%;
-    padding: 4%;
+    gap: 5%;
+    padding: 1%;
     max-width: 70%;
     margin: 0 auto;
 }
@@ -82,7 +83,7 @@ button:hover {
 /* Section de contact */
 .contact-section {
     padding: 40px;
-    background-color: #989287;
+    background-color: #98928700;
     color: #fff;
     text-align: center;
     margin-top: 40px;
@@ -119,4 +120,25 @@ button:hover {
         grid-template-columns: 1fr;
         gap: 20px;
     }
+}
+
+
+.btn-retour {
+    display: block;
+    position: fixed;
+    top: 5%;
+    left: 2%;
+    background-color: #333;
+    color: #ffffff;
+    padding: 12px;
+    border-radius: 19px;
+    text-decoration: none;
+    font-size: 17px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-retour:hover {
+    background-color: #40af47;;
+    color: #fff;
 }

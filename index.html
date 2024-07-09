@@ -1,7 +1,49 @@
 <!doctype html>
 <html lang="en">
 <style>
-
+    #clients-section {
+        background-color: #ffffff;
+        margin: 1%;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 0 2px 4px rgb(208 204 204 / 10%);
+        text-align: center;
+    }
+    
+    #clients-section h2 {
+        color: #2b2929;
+        margin-bottom: 64px;
+    }
+    
+    .clients-slider {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .client {
+        background-color: #ffffff;
+        margin: 10px;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+        text-align: center;
+        flex: 1 0 300px;
+        max-width: 300px;
+    }
+    
+    .client img {
+        max-width: 100%;
+        max-height: 195px;
+        object-fit: cover;
+        border-radius: 0%
+    }
+    
+    .client h3 {
+        color: #555;
+        margin-top: 10px;
+    }
+    
 </style>
 
 <head>
@@ -16,43 +58,31 @@
     <link rel="icon" href="./assets/images/logo_MBA_-_AMRI-removebg-preview.png">
 
     <title>MBA Amri Consult</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+
 
 
 </head>
 
 <body>
+    <!-- <div class="sidebar">
+                <h1 style="color: black;">MBA Amri Consult</h1>
+                <h2>Relation durable avec nos clients</h2>
+            </div>    -->
+   
+    <img class="mbalogo" style="margin: 6%;" src="./assets/images/logo_MBA_-_AMRI-removebg-preview.png" alt="MBA Amri Consult">
+    <h1  id="relation">Relation durable avec nos clients</h1>
+
     <header class="mt-0 pt-0">
+
         <div id="hihi" class="bg-cover clearfix pt-3">
             <!-- <h2 class="logo">MBA Amri Consult</h2> -->
-            <img style="margin: 6%;" src="./assets/images/logo_MBA_-_AMRI-removebg-preview.png" alt="">
 
-            <!-- <div class="circles-container">
-                <div class="circle formation">
-                    <a   href="./assets/formation.html"><h6>Formation</h6></a>
-                </div>
-                <div class="circle accompagnement">
-                    <a  href="./assets/accompagnement.html"><h6>Assistance et Accompagnement</h6></a>
-                </div>
-            </div> -->
 
-            <!-- <div class="bee-card-container">
-                <div class="bee-card bee-card-flexibilite">
-                    <div class="bee-card-icon">
-                        
-                    </div>
-                    <h2 style="color: #555;">Formation</h2>
-                   
-                </div>
-                <div class="bee-card bee-card-accompagnement">
-                    <div class="bee-card-icon">
-                       
-                    </div>
-                    <h2> <i>Assistance <br> & <br>Accompagnement</i></h2>
-                   
-                </div>
-               
-            </div> -->
-            <div class="ab">
+      
+            <div  id="abb" class="ab">
                 <div class="ac ae">
                     <div class="ad">
 
@@ -66,7 +96,15 @@
 
                     </div>
                     <a href="./assets/accompagnement.html">
-                        <h3 style="color: #555;">Assistance <br> & <br>Accompagnement</h3>
+                        <h3 style="color: #555;">Assistance <br>& <br>Accompagnement</h3>
+                    </a>
+                </div>
+                <div class="ac aj">
+                    <div class="ad">
+
+                    </div>
+                    <a href="./assets/accompagnement.html">
+                        <h3 style="color: #555;">Etude & Diagnostic <br>de Mise à Niveau</h3>
                     </a>
                 </div>
             </div>
@@ -137,12 +175,18 @@
 
 
         <div class="page-container">
-            <div class="sidebar">
-                <h1 style="color: black;">MBA Amri Consult</h1>
-                <h2>Relation durable avec nos clients</h2>
+           
+            <div class="director-container">
+                <div class="director-photo-wrapper">
+                    <img src="./assets/images/1000001253.jpg" alt="Photo du Directeur Général" class="director-photo">
+                </div>
+                <div class="director-info">
+                    <h2>Amri Makram</h2>
+                    <p>Directeur Général</p>
+                </div>
             </div>
             <div class="main-content">
-                <h2 style="font-family: 'Montserrat-Bold' ">Le Mot du Directeur Général</h2>
+                <h2 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ">Le Mot de la Direction Générale</h2>
                 <br>
                 <br>
 
@@ -166,183 +210,37 @@
 
                     Tout en espérant un partenariat fructueux avec vous, je vous remercie de votre visite et vous prie
 
-                    de recevoir mes meilleures salutations.&quot;
+                    de recevoir mes meilleures salutations
                 </p>
-                <img id="amri" src="./assets/images/1000001253.jpg" alt="">
+
             </div>
         </div>
 
 
 
-
-
-
-
-
-
-        <!-- <div class="container-fluid fh5co-recent-news mt-5 pb-5">
-        <h2 class="text-uppercase text-center" style="color: #067800;">Nos References</h2>
-        <hr class="mx-auto" />
-
-        <div class="play-list mt-5 pt-4">
-            <div class="owl-carousel owl-carousel5 owl-theme">
-                <div>
-
-                    <div class="card"> <img class="card-img link-img" src="./assets/images/bna.jpg" alt="">
-                        <div class="card-img-overlay">
-                            <div class="top-area"><a href="#" class="text-center d-block"><i
-                                        class="far fa-heart"></i></a></div>
-                            <div class="bottom-area">
-                                <div class="row">
-                                    <div class="col-5 pr-0 text-white">
-                                        <a target="_blank" href="http://www.bna.tn/" class="text-white"> <i
-                                                class="fas fa-retweet"></i> Share</a>
-                                    </div>
-                                    <div class="col  pl-0   text-right"><a href="#" class="text-white">
-                                            <i class="far fa-comments"></i></a></div>
-                                </div>
-                                <h4 class="text-white mt-2">BNA</h4>
-
-                            </div>
-                        </div>
-                    </div>
+        <section id="clients-section">
+            <h2>Nos références</h2>
+            <div class="clients-slider">
+                <div class="client">
+                    <img src="./assets/images/bna.jpg" alt="Client 1">
+                    
                 </div>
-                <div>
-                    <div class="card"> <img class="card-img link-img" src="assets/images/issat.png" alt="">
-                        <div class="card-img-overlay">
-                            <div class="top-area"><a href="#" class="text-center d-block"><i
-                                        class="far fa-heart"></i></a></div>
-                            <div class="bottom-area">
-                                <div class="row">
-                                    <div class="col-5 pr-0 text-white">
-                                        <a href="https://issatso.rnu.tn/" class="text-white"> <i
-                                                class="fas fa-retweet"></i> Share</a>
-                                    </div>
-                                    <div class="col  pl-0   text-right"><a href="#" class="text-white">
-                                            <i class="far fa-comments"></i></a></div>
-                                </div>
-                                <h4 class="text-white mt-2">Issat Sousse</h4>
-
-                            </div>
-                        </div>
-
-                    </div>
+             
+                <div class="client">
+                    <img src="./assets/images/CNFCPP.jpg" alt="Client 3">
+                    
                 </div>
-                <div>
-                    <div class="card"> <img class="card-img link-img" src="assets/images/boudrant.jpeg" alt="">
-                        <div class="card-img-overlay">
-                            <div class="top-area"><a href="#" class="text-center d-block"><i
-                                        class="far fa-heart"></i></a></div>
-                            <div class="bottom-area">
-                                <div class="row">
-                                    <div class="col-5 pr-0 text-white">
-                                        <a href="https://boudrant.com.tn/" class="text-white"> <i
-                                                class="fas fa-retweet"></i> Share</a>
-                                    </div>
-                                    <div class="col  pl-0   text-right"><a href="#" class="text-white">
-                                            <i class="far fa-comments"></i></a></div>
-                                </div>
-                                <h4 class="text-white mt-2">Boudrant</h4>
-
-                            </div>
-                        </div>
-                    </div>
+                <div class="client">
+                    <img src="./assets/images/ipt.png" alt="Client 2">
+                   
                 </div>
-                <div>
-                    <div class="card"> <img class="card-img link-img" src="assets/images/ipt.png" alt="">
-                        <div class="card-img-overlay">
-                            <div class="top-area"><a href="#" class="text-center d-block"><i
-                                        class="far fa-heart"></i></a></div>
-                            <div class="bottom-area">
-                                <div class="row">
-                                    <div class="col-5 pr-0 text-white">
-                                        <a href="https://www.ipt.org/" class="text-white"> <i
-                                                class="fas fa-retweet"></i> Share</a>
-                                    </div>
-                                    <div class="col  pl-0   text-right"><a href="#" class="text-white">
-                                            <i class="far fa-comments"></i></a></div>
-                                </div>
-                                <h4 class="text-white mt-2">IPT</h4>
-
-                            </div>
-                        </div>
-                    </div>
+                <div class="client">
+                    <img src="./assets/images/tunisie auto.png" alt="Client 3">
+                    
                 </div>
-                <div>
-                    <div class="card"> <img class="card-img link-img" src="assets/images/tunisie auto.png" alt="">
-                        <div class="card-img-overlay">
-                            <div class="top-area"><a href="#" class="text-center d-block"><i
-                                        class="far fa-heart"></i></a></div>
-                            <div class="bottom-area">
-                                <div class="row">
-                                    <div class="col-5 pr-0 text-white">
-                                        <a href="https://optimoroute.com/?utm_or_cid=270304121&utm_or_agid=1153387733394703&utm_or_fiid=&utm_or_tid=kwd-72087493983650&utm_or_loc=154648&utm_or_mt=p&utm_or_n=o&utm_or_crid=&utm_or_kw=vehicle%20routing&utm_or_pl=&utm_or_tgt=&utm_or_pos=&utm_or_qs=tunisie%20autoroute&msclkid=a040c5503cc81f6d3deea3382bd2a4e7&utm_source=bing&utm_medium=cpc&utm_campaign=OR%20-%20Rest%20of%20the%20world&utm_term=vehicle%20routing&utm_content=Route%20Planning"
-                                            class="text-white"> <i class="fas fa-retweet"></i> Share</a>
-                                    </div>
-                                    <div class="col  pl-0   text-right"><a href="#" class="text-white"> June 3, 2019
-                                            &nbsp; 6 <i class="far fa-comments"></i></a></div>
-                                </div>
-                                <h4 class="text-white mt-2">Tunisie Autoroute</h4>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="card"> <img class="card-img link-img" src="assets/images/CNFCPP.jpg" alt="">
-                        <div class="card-img-overlay">
-                            <div class="top-area"><a href="#" class="text-center d-block"><i
-                                        class="far fa-heart"></i></a></div>
-                            <div class="bottom-area">
-                                <div class="row">
-                                    <div class="col-5 pr-0 text-white">
-                                        <a href="http://cnfcpp.tn/" class="text-white"> <i class="fas fa-retweet"></i>
-                                            Share</a>
-                                    </div>
-                                    <div class="col  pl-0   text-right"><a href="#" class="text-white"> June 3, 2019
-                                            &nbsp; 6 <i class="far fa-comments"></i></a></div>
-                                </div>
-                                <h4 class="text-white mt-2">CNFCPP</h4>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="card"> <img class="card-img link-img" src="assets/images/news4.png" alt="">
-                        <div class="card-img-overlay">
-                            <div class="top-area"><a href="#" class="text-center d-block"><i
-                                        class="far fa-heart"></i></a></div>
-                            <div class="bottom-area">
-                                <div class="row">
-                                    <div class="col-5 pr-0 text-white">
-                                        <a href="#" class="text-white"> <i class="fas fa-retweet"></i> Share</a>
-                                    </div>
-                                    <div class="col  pl-0   text-right"><a href="#" class="text-white"> June 3, 2019
-                                            &nbsp; 6 <i class="far fa-comments"></i></a></div>
-                                </div>
-                                <h4 class="text-white mt-2">Xiaomi Hao Gertion Hones</h4>
-                                <p class="text-white">Jhone Doe</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <!-- Ajoutez plus de clients ici -->
             </div>
-        </div>
-    </div>
-
-    <div class="container-fluid jumbotron-fluid stay mt-5 pt-5 pb-5" style="background-color: #F5F5DC;">
-        <h2 class="text-center">Stay Updated</h2>
-        <p class="text-center mt-2">Sign up for our newsletter to receive the latest news and event postings.</p>
-        <div class="input-group mt-4 mx-auto" style="max-width: 640px">
-            <input type="email" class="form-control" placeholder="YOUR EMAIL ADDRESS">
-            <div class="">
-                <button class="btn btn-success ml-2" type="submit">SIGN UP</button>
-            </div>
-        </div>
-    </div> -->
-
-
+        </section>
 
 
 
@@ -401,6 +299,37 @@
         <script src="assets/js/owl.carousel.min.js"></script>
         <script src="assets/js/jquery.yu2fvl.js"></script>
         <script src="assets/js/main.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.clients-slider').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                            infinite: true,
+                            dots: true
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
 
 </body>
 

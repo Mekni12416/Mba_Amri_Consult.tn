@@ -123,3 +123,22 @@ footer {
     border-radius: 10px;
     margin-top: 20px;
 }
+.btn-retour {
+    display: block;
+    position: fixed;
+    top: 5%;
+    left: 2%;
+    background-color: #333;
+    color: #ffffff;
+    padding: 12px;
+    border-radius: 19px;
+    text-decoration: none;
+    font-size: 17px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-retour:hover {
+    background-color: #40af47;;
+    color: #fff;
+}
